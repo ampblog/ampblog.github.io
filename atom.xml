@@ -4,13 +4,45 @@
  <title>AMPed</title>
  <link href="http://ampblog.github.io/atom.xml" rel="self"/>
  <link href="http://ampblog.github.io/"/>
- <updated>2015-09-03T23:10:28+00:00</updated>
+ <updated>2015-09-05T17:31:07+00:00</updated>
  <id>http://ampblog.github.io</id>
  <author>
    <name>amarkpark</name>
    <email>amarkpark@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Glassy-eyed Stare</title>
+   <link href="http://ampblog.github.io/2015/09/05/glassy-eyed-stare/"/>
+   <updated>2015-09-05T00:00:00+00:00</updated>
+   <id>http://ampblog.github.io/2015/09/05/glassy-eyed-stare</id>
+   <content type="html">&lt;h2 id=&quot;v101&quot;&gt;v.1.0.1&lt;/h2&gt;
+
+&lt;p&gt;My goal for this morning was to do TWO things… change the colors of the titles and navdrawer, and change the format of the post date to YYYY.MM.DD&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Sadly v1.0.1 of this blog represented at least 2 hours of work.  2 hours I didn’t have to spend.  AND I need to figure out how to fix the title links that link to the individual post pages.  I think it’s the same problem that I was having with content placement and relative vs. absolute paths.  As though perhaps something isn’t right in the layout hierarchy or the site.baseurl variable.  Meh.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I spent 12 hours coding and styling a Web App in my online Full-Stack bootcamp yesterday. I managed to make pagination function.  Then I looked at how many more chapters were left in the lesson for this particular App.  I had finished Chapter 3.  There are 13 total.&lt;/p&gt;
+
+&lt;p&gt;To say I was a tad deflated was an understatement.&lt;/p&gt;
+
+&lt;p&gt;We have a student Google+ group where we share and interface.  There are several posts there that describe a learning/enthusiam curve graph.  For certain I have taken the nose-dive into the major slump of the curves.  I am trying to keep my enthusiasm up as I learn how much I have to learn.  Trying to convince myself it may some day be worth it in the end when I may possibly get a job doing Full-Stack development for a living.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note the conditional statements above.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yep.  I’m having a hard time finding hope with two hands and a flashlight in my teeth right about now.&lt;/p&gt;
+
+&lt;p&gt;Time for a snack.  Maybe some &lt;a href=&quot;http://www.girlgeniusonline.com/ggmain/strips/ggmain20071015.jpg&quot;&gt;Spark Roast&lt;/a&gt; and a good &lt;a href=&quot;http://www.girlgeniusonline.com/newreaders.php&quot;&gt;Comic&lt;/a&gt;.  Because once my stomach is appeased I’m going to &lt;a href=&quot;http://www.thefirehoseproject.com/&quot;&gt;DIVE&lt;/a&gt; BACK IN DAMN-IT!&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Epiphany</title>
