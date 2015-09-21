@@ -4,7 +4,7 @@
  <title>AMPed</title>
  <link href="http://ampblog.github.io/atom.xml" rel="self"/>
  <link href="http://ampblog.github.io/"/>
- <updated>2015-09-21T16:17:57-05:00</updated>
+ <updated>2015-09-21T16:44:58-05:00</updated>
  <id>http://ampblog.github.io</id>
  <author>
    <name>amarkpark</name>
@@ -220,7 +220,7 @@ This trippy programming-of-yore flashback has been brought to you by the letter:
 
 &lt;p&gt;~AMP&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;//me&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;thod&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;works&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# method 1 works&lt;/span&gt;
 
 &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Number of wags?&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;gets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chomp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_i&lt;/span&gt;
@@ -239,7 +239,7 @@ This trippy programming-of-yore flashback has been brought to you by the letter:
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
 
-&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;method&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;works&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# method 2 works&lt;/span&gt;
 
 &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Number of wags?&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;gets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chomp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_i&lt;/span&gt;
@@ -258,7 +258,7 @@ This trippy programming-of-yore flashback has been brought to you by the letter:
 &lt;span class=&quot;n&quot;&gt;tailwags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 
-&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;  &lt;span class=&quot;nb&quot;&gt;method&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;works&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# method 3 works&lt;/span&gt;
 
 &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Number of wags?&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;gets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chomp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_i&lt;/span&gt;
