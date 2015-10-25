@@ -4,13 +4,90 @@
  <title>AMPed</title>
  <link href="http://ampblog.github.io/atom.xml" rel="self"/>
  <link href="http://ampblog.github.io/"/>
- <updated>2015-10-12T16:59:19-05:00</updated>
+ <updated>2015-10-25T00:41:53-05:00</updated>
  <id>http://ampblog.github.io</id>
  <author>
    <name>amarkpark</name>
    <email>amarkpark@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>A Number Stack</title>
+   <link href="http://ampblog.github.io/2015/10/23/a-number-stack/"/>
+   <updated>2015-10-23T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/10/23/a-number-stack</id>
+   <content type="html">&lt;p&gt;So I wrote a Stack Class in the process of working on a new coding challenge yesterday. The Stack was explained as an abstract data structure that is Last-In-First-Out. I needed to have a functional stack to complete my assignment and at some point I went off on a tangent to code a Number Stack.&lt;/p&gt;
+
+&lt;p&gt;This is somewhat my ode to the IP Stack, in that it encodes data and bit lengths to represent items on the Stack.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;NumberStack&lt;/span&gt;
+	&lt;span class=&quot;kp&quot;&gt;attr_reader&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:topval&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;
+		&lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;pop&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;byteslice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;topval&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;byteslice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;remainder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;byteslice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remainder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;topval&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/amarkpark/ee48eeaf7803d200b085.js&quot;&gt;Or Find Gist here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a functional limit to the integers that can be pushed to the stack of 1152921504606846975.&lt;/p&gt;
+
+&lt;p&gt;That is “fffffffffffffff” in Hexadecimal.&lt;/p&gt;
+
+&lt;p&gt;I could increase the functional limit by changing the base I convert to to push the data onto the stack, but I didn’t need a gianormous limit and I’m used to working with Hex so I kept it simple.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Check Your Assumptions</title>
+   <link href="http://ampblog.github.io/2015/10/19/check-your-assumptions/"/>
+   <updated>2015-10-19T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/10/19/check-your-assumptions</id>
+   <content type="html">&lt;p&gt;I spent much of the weekend frustrated. The REASON I was frustrated was because I didn’t Check My Assumptions.&lt;/p&gt;
+
+&lt;p&gt;I was working on a coding challenge.  My solution involved having two copies of a multi-dimensional Array.  I would inspect the first copy (hereafter FC) and based on the results of the inspection make CHANGES to the second copy (SC). This wasn’t necessarily a difficult proposition.  I had already solved this problem once and was working on a refactor to improve efficiency.&lt;/p&gt;
+
+&lt;p&gt;I started with a clone of my original code and I set about making modifications to eliminate a secondary method and fold it in to the initial iteration of the Array.&lt;/p&gt;
+
+&lt;p&gt;Every time I ran the refactored code I found that it was not only changing the SC of the Array, but also the FC. &lt;em&gt;Note: Needed deep copy by way of Marshalemng, tis another story.&lt;sup&gt;1&lt;/sup&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The thing that was frustrating the begeebers out of me was that each time I reran my original solution IT WORKED!  The FC was unchanged and the SC was properly modified HUZZAH!&lt;/p&gt;
+
+&lt;p&gt;…Except that that WASN’T actually the case.&lt;/p&gt;
+
+&lt;p&gt;I needed to &lt;span&gt;&lt;u&gt;Check My Assumptions&lt;/u&gt;&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;I forgot that I had changed the order of the methods I called when I tested my refactored script. And while the original solution DID properly make changes to the SC, it WAS simultaneously changing the FC. Problem was I didn’t know that because I was only inspecting the FC BEFORE calling the method to apply the changes to the SC.&lt;/p&gt;
+
+&lt;p&gt;I hadn’t held my test methodology constant in the refactored script, so I was seeing a different set of results. Once I realized my error I changed the order I was calling the methods in my original solution script and found that IT TOO had changed the FC at the same time it was changing the SC.&lt;/p&gt;
+
+&lt;p&gt;If I had just Checked My Assumptions I might have saved myself days of frustration and headaches as I chanted over and over “But it worked in the original solution!”&lt;/p&gt;
+
+&lt;h2 id=&quot;check-your-assumptions-at-the-door&quot;&gt;Check Your Assumptions At The Door!&lt;/h2&gt;
+
+&lt;p&gt;The moral to this story is this: Check Your Assumptions. Start with a fresh pair of eyes EACH AND EVERY TIME you look at the code. Reset your expectations. Go back and examine your code, your methodology, your order of invocation. Faulty assumptions are PEBKAC 100% of the time, so CYA.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;1. &lt;a href=&quot;http://ruby-doc.org/core-2.2.2/Marshal.html&quot;&gt;Marshal&lt;/a&gt;, and &lt;a href=&quot;http://stackoverflow.com/a/1465787#1465787&quot;&gt;a lovely way to invoke Marshaling to achieve Deep Copy&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Leveling Up</title>

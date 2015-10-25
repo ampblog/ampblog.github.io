@@ -11,7 +11,7 @@
 
   <title>
     
-      Glassy-eyed Stare &middot; AMPed
+      A Number Stack &middot; AMPed
     
   </title>
 
@@ -113,43 +113,48 @@
 
       <div class="container content">
         <div class="post">
-  <h1 class="post-title">Glassy-eyed Stare</h1>
+  <h1 class="post-title">A Number Stack</h1>
   <span class="post-date"></span>
-  <h2 id="v101">v.1.0.1</h2>
+  <p>So I wrote a Stack Class in the process of working on a new coding challenge yesterday. The Stack was explained as an abstract data structure that is Last-In-First-Out. I needed to have a functional stack to complete my assignment and at some point I went off on a tangent to code a Number Stack.</p>
 
-<p>My goal for this morning was to do TWO things… change the colors of the titles and navdrawer, and change the format of the post date to YYYY.MM.DD</p>
+<p>This is somewhat my ode to the IP Stack, in that it encodes data and bit lengths to represent items on the Stack.</p>
 
-<p>Sadly v1.0.1 of this blog represented at least 2 hours of work.  2 hours I didn’t have to spend.  AND I need to figure out how to fix the title links that link to the individual post pages.  I think it’s the same problem that I was having with content placement and relative vs. absolute paths.  As though perhaps something isn’t right in the layout hierarchy or the site.baseurl variable.  Meh.</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">NumberStack</span>
+	<span class="kp">attr_reader</span> <span class="ss">:data</span><span class="p">,</span> <span class="ss">:topval</span>
 
-<p>I spent 12 hours coding and styling a Web App in my online Full-Stack bootcamp yesterday. I managed to make pagination function.  Then I looked at how many more chapters were left in the lesson for this particular App.  I had finished Chapter 3.  There are 13 total.</p>
+	<span class="k">def</span> <span class="nf">initialize</span>
+		<span class="vi">@data</span> <span class="o">=</span> <span class="kp">nil</span>
+	<span class="k">end</span>
 
-<p>To say I was a tad deflated was an understatement.</p>
+	<span class="k">def</span> <span class="nf">push</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+		<span class="n">value</span> <span class="o">=</span> <span class="n">value</span><span class="o">.</span><span class="n">to_s</span><span class="p">(</span><span class="mi">16</span><span class="p">)</span>
+		<span class="vi">@data</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">value</span><span class="o">.</span><span class="n">length</span><span class="o">.</span><span class="n">to_s</span><span class="p">(</span><span class="mi">16</span><span class="p">)</span><span class="si">}#{</span><span class="n">value</span><span class="si">}#{</span><span class="vi">@data</span><span class="si">}</span><span class="s2">&quot;</span>
+	<span class="k">end</span>
 
-<p>We have a student Google+ group where we share and interface.  There are several posts there that describe a learning/enthusiam curve graph.  For certain I have taken the nose-dive into the major slump of the curves.  I am trying to keep my enthusiasm up as I learn how much I have to learn.  Trying to convince myself it may some day be worth it in the end when I may possibly get a job doing Full-Stack development for a living.</p>
+	<span class="k">def</span> <span class="nf">pop</span>
+		<span class="n">length</span> <span class="o">=</span> <span class="vi">@data</span><span class="o">.</span><span class="n">byteslice</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">to_i</span><span class="p">(</span><span class="mi">16</span><span class="p">)</span>
+		<span class="n">topval</span> <span class="o">=</span> <span class="vi">@data</span><span class="o">.</span><span class="n">byteslice</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">length</span><span class="p">)</span><span class="o">.</span><span class="n">to_i</span><span class="p">(</span><span class="mi">16</span><span class="p">)</span>
+		<span class="n">remainder</span> <span class="o">=</span> <span class="p">(</span><span class="vi">@data</span><span class="o">.</span><span class="n">length</span> <span class="o">-</span> <span class="n">length</span><span class="p">)</span>
+		<span class="vi">@data</span> <span class="o">=</span> <span class="vi">@data</span><span class="o">.</span><span class="n">byteslice</span><span class="p">((</span><span class="n">length</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span> <span class="n">remainder</span><span class="p">)</span>
+		<span class="n">topval</span>
+	<span class="k">end</span>
+<span class="k">end</span></code></pre></div>
 
-<p><i><b> Note the conditional statements above. </b></i></p>
+<p><a href="https://gist.github.com/amarkpark/ee48eeaf7803d200b085.js">Or Find Gist here</a></p>
 
-<p>Yep.  I’m having a hard time finding hope with two hands and a flashlight in my teeth right about now.</p>
+<p>There is a functional limit to the integers that can be pushed to the stack of 1152921504606846975.</p>
 
-<p>Time for a snack.  Maybe some <a href="http://www.girlgeniusonline.com/ggmain/strips/ggmain20071015.jpg">Spark Roast</a> and a good <a href="http://www.girlgeniusonline.com/newreaders.php">Comic</a>.  Because once my stomach is appeased I’m going to <a href="http://www.thefirehoseproject.com/">DIVE</a> BACK IN DAMN-IT!</p>
+<p>That is “fffffffffffffff” in Hexadecimal.</p>
+
+<p>I could increase the functional limit by changing the base I convert to to push the data onto the stack, but I didn’t need a gianormous limit and I’m used to working with Hex so I kept it simple.</p>
 
 <p>~AMP</p>
-
 
 </div>
 
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/2015/10/23/a-number-stack/">
-            A Number Stack
-            <small>2015.10.23</small>
-          </a>
-        </h3>
-      </li>
     
       <li>
         <h3>
@@ -165,6 +170,15 @@
           <a href="/2015/10/12/leveling-up/">
             Leveling Up
             <small>2015.10.12</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/10/01/arcana/">
+            Arcana
+            <small>2015.10.01</small>
           </a>
         </h3>
       </li>
