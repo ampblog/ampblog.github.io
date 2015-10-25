@@ -4,7 +4,7 @@
  <title>AMPed</title>
  <link href="http://ampblog.github.io/atom.xml" rel="self"/>
  <link href="http://ampblog.github.io/"/>
- <updated>2015-10-25T00:52:24-05:00</updated>
+ <updated>2015-10-25T00:56:59-05:00</updated>
  <id>http://ampblog.github.io</id>
  <author>
    <name>amarkpark</name>
@@ -77,7 +77,7 @@
 
 &lt;p&gt;I hadn’t held my test methodology constant in the refactored script, so I was seeing a different set of results. Once I realized my error I changed the order I was calling the methods in my original solution script and found that IT TOO had changed the FC at the same time it was changing the SC.&lt;/p&gt;
 
-&lt;p&gt;If I had just Checked My Assumptions I might have saved myself days of frustration and headaches as I chanted over and over “But it worked in the original solution!”&lt;/p&gt;
+&lt;p&gt;Had I just Checked My Assumptions I might have saved myself days of frustration and headaches as I chanted over and over “But it worked in the original solution!”&lt;/p&gt;
 
 &lt;h2 id=&quot;check-your-assumptions-at-the-door&quot;&gt;Check Your Assumptions At The Door!&lt;/h2&gt;
 
