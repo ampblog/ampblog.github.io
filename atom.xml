@@ -4,7 +4,7 @@
  <title>AMPed</title>
  <link href="http://ampblog.github.io/atom.xml" rel="self"/>
  <link href="http://ampblog.github.io/"/>
- <updated>2015-10-25T00:41:53-05:00</updated>
+ <updated>2015-10-25T00:52:24-05:00</updated>
  <id>http://ampblog.github.io</id>
  <author>
    <name>amarkpark</name>
@@ -65,7 +65,7 @@
 
 &lt;p&gt;I started with a clone of my original code and I set about making modifications to eliminate a secondary method and fold it in to the initial iteration of the Array.&lt;/p&gt;
 
-&lt;p&gt;Every time I ran the refactored code I found that it was not only changing the SC of the Array, but also the FC. &lt;em&gt;Note: Needed deep copy by way of Marshalemng, tis another story.&lt;sup&gt;1&lt;/sup&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Every time I ran the refactored code I found that it was not only changing the SC of the Array, but also the FC. &lt;em&gt;Note: Needed deep copy by way of Marshaling, ‘tis another story.&lt;sup&gt;1&lt;/sup&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The thing that was frustrating the begeebers out of me was that each time I reran my original solution IT WORKED!  The FC was unchanged and the SC was properly modified HUZZAH!&lt;/p&gt;
 
