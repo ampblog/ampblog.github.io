@@ -4,13 +4,55 @@
  <title>AMPed</title>
  <link href="http://ampblog.github.io/atom.xml" rel="self"/>
  <link href="http://ampblog.github.io/"/>
- <updated>2015-10-30T15:25:51-05:00</updated>
+ <updated>2015-11-03T01:57:50-06:00</updated>
  <id>http://ampblog.github.io</id>
  <author>
    <name>amarkpark</name>
    <email>amarkpark@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Deep Dive Week In Review</title>
+   <link href="http://ampblog.github.io/2015/11/02/deep-dive-week-in-review/"/>
+   <updated>2015-11-02T00:00:00-06:00</updated>
+   <id>http://ampblog.github.io/2015/11/02/deep-dive-week-in-review</id>
+   <content type="html">&lt;p&gt;My coding mentor instructed me last week to “Dive Deep” while working on my current App. Essentially he wanted me to spend time understanding the whys and hows of all the commands, connections, methods, assets, interactions between components of the MVC, calls to the ORM… Anything I touched I was supposed to deepen my understanding of. I even took notes longhand « with a pen « in a paper notebook for some of these.&lt;/p&gt;
+
+&lt;p&gt;The following (non)exhaustive list of what I touched upon (and sometimes snorkeled in) during my Curricular Annotations this week includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Il8n - Internationalization: &lt;a href=&quot;http://guides.rubyonrails.org/i18n.html#overview-of-the-i18n-api-features&quot;&gt;il8n API&lt;/a&gt;, &lt;a href=&quot;http://railscasts.com/episodes/138-i18n&quot;&gt;il8n Railscast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RESTful Archetecture: &lt;a href=&quot;https://en.wikipedia.org/wiki/Representational_state_transfer&quot;&gt;Representational State Transfer&lt;/a&gt;, &lt;a href=&quot;http://railscasts.com/episodes/35-custom-rest-actions&quot;&gt;Custom REST actions Railscast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;HTTP Verbs: &lt;a href=&quot;http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html&quot;&gt;rfc2616 the friendly version&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://guides.rubyonrails.org/action_controller_overview.html#parameters&quot;&gt;Parameters&lt;/a&gt; (String vs. Post &amp;amp; Strong)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jocellyn.cz/2014/05/03/hash-with-indifferent-access.html&quot;&gt;Params Hash/Indifferent Access&lt;/a&gt;, &lt;a href=&quot;http://codefol.io/posts/Deep-Rails-Understanding-HashWithIndifferentAccess-Understanding-the-Params-Hash&quot;&gt;CodeFolio&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RAKE and Rakefiles: &lt;a href=&quot;http://martinfowler.com/articles/rake.html&quot;&gt;Using Rake Build Language&lt;/a&gt;, &lt;a href=&quot;http://erik.debill.org/2011/12/04/rake-for-rails-developers&quot;&gt;Erik’s&lt;/a&gt;, &lt;a href=&quot;http://www.jbarnette.com/2009/08/27/on-rake.html&quot;&gt;On Rake&lt;/a&gt;, &lt;a href=&quot;http://railscasts.com/episodes/66-custom-rake-tasks&quot;&gt;Custome Rake Tasks RailsCast&lt;/a&gt;, &lt;a href=&quot;http://ruby-doc.org/core-1.9.3/doc/rake/rakefile_rdoc.html&quot;&gt;rakefile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Imperatives, Declaratives, Dependencies&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.justinweiss.com/articles/4-simple-memoization-patterns-in-ruby-and-one-gem/&quot;&gt;Memoization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Rails &lt;a href=&quot;http://6ftdan.com/allyourdev/2015/01/28/rails-helper-methods/&quot;&gt;helper_methods&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ActiveRecord migrations (how to &lt;a href=&quot;http://edgeguides.rubyonrails.org/active_record_migrations.html#creating-a-standalone-migration&quot;&gt;generate/name&lt;/a&gt; them so that they pre-populate)&lt;/li&gt;
+  &lt;li&gt;FactoryGirl Factories (best way to generate test data with table dependencies to test validations): &lt;a href=&quot;http://stackoverflow.com/questions/4410854/dependent-attributes-in-factory-girl&quot;&gt;Dependent Attributes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://guides.rubyonrails.org/action_controller_overview.html#the-flash&quot;&gt;Flash and Status codes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://guides.rubyonrails.org/layouts_and_rendering.html&quot;&gt;Rails Layouts and Rendering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://guides.rubyonrails.org/routing.html&quot;&gt;Rails Resource Routing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Started on &lt;a href=&quot;http://guides.rubyonrails.org/active_support_core_extensions.html&quot;&gt;Active Support Core Extensions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://slim-lang.com/&quot;&gt;Slim&lt;/a&gt; and &lt;a href=&quot;http://naltatis.github.io/jade-syntax-docs/&quot;&gt;Jade&lt;/a&gt; Templating engines: &lt;a href=&quot;http://fredwu.me/post/1338899831/slim-a-fast-and-lightweight-rails-template&quot;&gt;FredWu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/docs/git-commit&quot;&gt;git commit –amend&lt;/a&gt;, &lt;a href=&quot;https://www.atlassian.com/git/tutorials/rewriting-history/git-commit--amend/&quot;&gt;Awesome Tutorials&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CSS Units for fonts and responsive CSS: &lt;a href=&quot;https://www.youtube.com/watch?v=qrduUUdxBSY&quot;&gt;Awesome Dev Tips&lt;/a&gt;, &lt;a href=&quot;http://stackoverflow.com/a/18462893#18462893&quot;&gt;CSS for responsive centered image&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Even another Framework: &lt;a href=&quot;http://jgaskins.org/blog/2015/01/17/clearwater-a-front-end-web-framework-in-ruby&quot;&gt;Clearwater&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Yeah. The ones without links are still cooking. Suffice it to say I’ve been drinking from the Firehose this past week. And I have more homework/leads to research more of for the COMING week. No big surprise there, I’ve still got lots to learn and tons to review. I’m pushing myself to progress as far as I can prior to the start of my Group Project, now slated to kick off come Saturday… 5 days from now.&lt;/p&gt;
+
+&lt;p&gt;Caught somewhere between nervous and eager at this point. I should write some test classes to help me determine which way is UP once we get going. But would they be Functional or Unit tests? Functional tests on the GravitationalForcesController?&lt;/p&gt;
+
+&lt;p&gt;Something to contemplate.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>A Number Stack</title>
