@@ -4,13 +4,53 @@
  <title>AMPed</title>
  <link href="http://ampblog.github.io/atom.xml" rel="self"/>
  <link href="http://ampblog.github.io/"/>
- <updated>2015-11-03T02:19:16-06:00</updated>
+ <updated>2015-12-07T16:38:35-06:00</updated>
  <id>http://ampblog.github.io</id>
  <author>
    <name>amarkpark</name>
    <email>amarkpark@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>About Time</title>
+   <link href="http://ampblog.github.io/2015/12/07/about-time/"/>
+   <updated>2015-12-07T00:00:00-06:00</updated>
+   <id>http://ampblog.github.io/2015/12/07/about-time</id>
+   <content type="html">&lt;p&gt;Much as I wish this were an &lt;a href=&quot;http://alanwatts.com/&quot;&gt;Allen Watts&lt;/a&gt;-esque style discourse on the eternal yet ephemeral nature of time, my Post Title is more a sign of contrition… I have let my blog lapse for a month as I transitioned from a student to, well something approaching ‘Intern’ on the learning spectrum.&lt;/p&gt;
+
+&lt;p&gt;My last month in &lt;a href=&quot;http://www.thefirehoseproject.com/&quot;&gt;the Firehose Project&lt;/a&gt; was intense and fulfilling and draining all at the same time. I was rushing to finish a few solo projects and starting a group project and trying to cram as much learning and doing into my last precious days as I could.&lt;/p&gt;
+
+&lt;p&gt;Did I emerge from the program a Ruby on Rails Expert? Nope. But I DID emerge as a well-indoctrinated Ruby on Rails Novice with some solid skills and a hunger to build upon them. As with any new discipline, I now have a much better idea of the scope of what I do not know. And I add to my knowledge and skills daily.&lt;/p&gt;
+
+&lt;p&gt;I am currently working on a group project with a team of FHP students and a skilled Lead (Group Mentor) in the “Product Manager” roll (though sometimes that may be closer to a kindergarten teacher roll - he wrangles cats and bolsters egos and makes sure we clean up our Legos™… hmm come to think of it that’s probably about right for “Product Manager”)&lt;/p&gt;
+
+&lt;p&gt;Hard to describe the highs and lows of this venture. A friend asked me yesterday how I like it. And here is the gist (no github pun intended, but there it is!) of my response(s):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It is good, frustrating, up-hill progress that has me working 10-12+ hours in a stretch without looking up.” “I love it so long as I don’t spend more than ~24 hours hard-core stuck.” “It stimulates my brain.” “Every little section I finish is a new reason to party.” “I get to see results of my work. It’s like editing sound, there is immediate gratification and satisfaction.” “I get to move Trello cards from Backlog to In Progress to Completed and get little stickers of accomplishment just like flippin’ kindergarten! I LOVE IT!” –me&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This group project is kicking my arse, but in a GOOD way. It challenges me and keeps me on my toes and helps me learn and practice all sorts of useful skills that run the &lt;a href=&quot;https://github.com/FallGambit&quot;&gt;Gambit&lt;/a&gt; from working on a team to version-control to the nuts-and-bolts of writing code. I am utterly leveling up my TDD and Git skills. No question. And the satisfaction of watching our App grow from printed instructions to a functional piece of software is BRILLIANT!&lt;/p&gt;
+
+&lt;p&gt;I’m not saying there haven’t been challenging days, but each stumbling block is a learning-experience-in-disguise and each frustration is the potential for satisfaction. Now if only I could remember that whilst in the thick of it!&lt;/p&gt;
+
+&lt;div class=&quot;message&quot;&gt;
+  Heh... On that note: I happened to be watching Bill Burr last night (don&#39;t hold it against me, I didn&#39;t pick it!) and he said something about the process of learning home repairs and maintenance that I feel COMPLETELY applies to the process of learning to code... The pertinent sound-byte is in the first 10 seconds, watch the rest at your own risk. ;-)
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Kxx3ShuqlJc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;just-the-facts-maam&quot;&gt;Just the facts Ma’am…&lt;/h2&gt;
+
+&lt;p&gt;I haven’t felt this happy/content/satisfied on a daily basis for a very long time. I am learning and growing my coding skills daily and having a blast. Choosing to Ride the Rails has started me in a truly rich and positive new direction for my life.&lt;/p&gt;
+
+&lt;p&gt;Today I feel much like I felt in my &lt;a href=&quot;/2015/09/02/epiphany/&quot;&gt;First Post&lt;/a&gt; “The Adventure Begins…” and I am eager to get to the next stop on the Ruby Express.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Deep Dive Week In Review</title>
@@ -27,7 +67,7 @@
   &lt;li&gt;HTTP Verbs: &lt;a href=&quot;http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html&quot;&gt;rfc2616 - a friendly version&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://guides.rubyonrails.org/action_controller_overview.html#parameters&quot;&gt;Parameters:&lt;/a&gt; (String vs. Post &amp;amp; Strong)&lt;/li&gt;
   &lt;li&gt;Params Hash/Indifferent Access: &lt;a href=&quot;http://jocellyn.cz/2014/05/03/hash-with-indifferent-access.html&quot;&gt;Jocellyn&lt;/a&gt;, &lt;a href=&quot;http://codefol.io/posts/Deep-Rails-Understanding-HashWithIndifferentAccess-Understanding-the-Params-Hash&quot;&gt;CodeFolio&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;RAKE and Rakefiles: &lt;a href=&quot;http://martinfowler.com/articles/rake.html&quot;&gt;Using Rake Build Language&lt;/a&gt;, &lt;a href=&quot;http://erik.debill.org/2011/12/04/rake-for-rails-developers&quot;&gt;Erik’s&lt;/a&gt;, &lt;a href=&quot;http://www.jbarnette.com/2009/08/27/on-rake.html&quot;&gt;On Rake&lt;/a&gt;, &lt;a href=&quot;http://railscasts.com/episodes/66-custom-rake-tasks&quot;&gt;Custome Rake Tasks RailsCast&lt;/a&gt;, &lt;a href=&quot;http://ruby-doc.org/core-1.9.3/doc/rake/rakefile_rdoc.html&quot;&gt;rakefile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RAKE and Rakefiles: &lt;a href=&quot;http://martinfowler.com/articles/rake.html&quot;&gt;Using Rake Build Language&lt;/a&gt;, &lt;a href=&quot;http://erik.debill.org/2011/12/04/rake-for-rails-developers&quot;&gt;Erik’s&lt;/a&gt;, &lt;a href=&quot;http://www.jbarnette.com/2009/08/27/on-rake.html&quot;&gt;On Rake&lt;/a&gt;, &lt;a href=&quot;http://railscasts.com/episodes/66-custom-rake-tasks&quot;&gt;Custom Rake Tasks RailsCast&lt;/a&gt;, &lt;a href=&quot;http://ruby-doc.org/core-1.9.3/doc/rake/rakefile_rdoc.html&quot;&gt;rakefile&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Imperatives, Declaratives, Dependencies&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.justinweiss.com/articles/4-simple-memoization-patterns-in-ruby-and-one-gem/&quot;&gt;Memoization&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Rails &lt;a href=&quot;http://6ftdan.com/allyourdev/2015/01/28/rails-helper-methods/&quot;&gt;helper_methods&lt;/a&gt;&lt;/li&gt;
@@ -39,7 +79,7 @@
   &lt;li&gt;Started on &lt;a href=&quot;http://guides.rubyonrails.org/active_support_core_extensions.html&quot;&gt;Active Support Core Extensions&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Peeked at &lt;a href=&quot;http://slim-lang.com/&quot;&gt;Slim&lt;/a&gt; and &lt;a href=&quot;http://naltatis.github.io/jade-syntax-docs/&quot;&gt;Jade&lt;/a&gt; Templating engines: &lt;a href=&quot;http://fredwu.me/post/1338899831/slim-a-fast-and-lightweight-rails-template&quot;&gt;FredWu&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://git-scm.com/docs/git-commit&quot;&gt;git commit –amend&lt;/a&gt;, &lt;a href=&quot;https://www.atlassian.com/git/tutorials/rewriting-history/git-commit--amend/&quot;&gt;Awesome Tutorials&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CSS Units for fonts and responsive CSS: &lt;a href=&quot;https://www.youtube.com/watch?v=qrduUUdxBSY&quot;&gt;Awesome Dev Tips&lt;/a&gt;, &lt;a href=&quot;http://stackoverflow.com/a/18462893#18462893&quot;&gt;CSS for responsive centered image&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CSS Units for fonts and responsive CSS: &lt;a href=&quot;https://www.youtube.com/watch?v=qrduUUdxBSY&quot;&gt;Awesome Dev Tips&lt;/a&gt;&lt;sup&gt;1&lt;/sup&gt;, &lt;a href=&quot;http://stackoverflow.com/a/18462893#18462893&quot;&gt;CSS for responsive centered image&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Even bookmarked another Framework: &lt;a href=&quot;http://jgaskins.org/blog/2015/01/17/clearwater-a-front-end-web-framework-in-ruby&quot;&gt;Clearwater&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -51,6 +91,7 @@
 
 &lt;p&gt;~AMP&lt;/p&gt;
 
+&lt;p&gt;&lt;small&gt; 1. It TRULY pays to read community posts! - Thanks to community-active FHP alumnus Colin Rubbert for the link to that Dev Tips! &lt;/small&gt;&lt;/p&gt;
 </content>
  </entry>
  

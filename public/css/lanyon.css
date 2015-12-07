@@ -453,6 +453,42 @@ a.pagination-item:hover {
   color: #440044;
 }
 
+/* My 2nd purple theme */
+.amptheme2 .sidebar,
+.amptheme2 .sidebar-toggle:active,
+.amptheme2 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #47203e;
+}
+.amptheme2 .container a,
+.amptheme2 .sidebar-toggle,
+.amptheme2 .related-posts li a:hover {
+  color: #47203e;
+}
+
+/* My slack purple theme */
+.ampslack .sidebar,
+.ampslack .sidebar-toggle:active,
+.ampslack #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #4d394b;
+}
+.ampslack .container a,
+.ampslack .sidebar-toggle,
+.ampslack .related-posts li a:hover {
+  color: #4d394b;
+}
+
+/* My 3rd purple theme */
+.amptheme3 .sidebar,
+.amptheme3 .sidebar-toggle:active,
+.amptheme3 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #5f344e;
+}
+.amptheme3 .container a,
+.amptheme3 .sidebar-toggle,
+.amptheme3 .related-posts li a:hover {
+  color: #5f344e;
+}
+
 /* Red */
 .theme-base-08 .sidebar,
 .theme-base-08 .sidebar-toggle:active,
