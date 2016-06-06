@@ -67,4 +67,4 @@ title: Entropy
 
 ### <a name="TLA"></a>RFC, WTF, TLA ... Three Letter Acronym... and others:
 
-*[Technology Acronyms](https://en.wikipedia.org/wiki/List_of_information_technology_acronyms)
+* [Technology Acronyms](https://en.wikipedia.org/wiki/List_of_information_technology_acronyms)
