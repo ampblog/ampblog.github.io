@@ -1,5 +1,6 @@
 ---
 published: false
+layout: post
 ---
 I was doing some browsing last week and I noticed a subtle but specific Paradigm Shift.  I was reading someone's tech blog and knew as soon as the page loaded that it was not only Jekyll, but also specifically the Poole:Lanyon theme for Jekyll that was crafted by Mark Otto of Twitter and Bootstrap fame.
 
