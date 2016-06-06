@@ -1,0 +1,27 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+# Relative Permalinks is broken in jekyll 3.x
+permalink:           pretty
+relative_permalinks: false
+
+# Setup
+title:               AMPed
+tagline:             'a Web Dev Adventure blog by amarkpark'
+description:         '<a href="http://amarkpark.com"><img src="http://ampblog.github.io/public/sAMPsmed.png" width="166" height="132" border="0"></a>'
+url:                 http://ampblog.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              amarkpark
+  url:               https://twitter.com/amarkpark
+  email:             amarkpark@gmail.com
+
+# Custom vars
+version:             1.0.5
+
+# MISC
+timezone:            America/Chicago
+gems:                [jekyll-paginate, jekyll-gist]

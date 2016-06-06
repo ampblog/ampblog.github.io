@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Buffer Overflow &middot; AMPed
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="amprs">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p><a href="http://amarkpark.com"><img src="http://ampblog.github.io/public/sAMPsmed.png" width="166" height="132" border="0"></a></p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About AMP</a>
+        
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/entropy/">Entropy</a>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/poole/">Poole</a>
+        
+      
+    
+
+    
+    <a class="sidebar-nav-item" href="http://www.thefirehoseproject.com/">FHP</a>
+    <span class="sidebar-nav-item">Currently v1.0.5</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2016. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">AMPed</a>
+            <small>a Web Dev Adventure blog by amarkpark</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Buffer Overflow</h1>
+  <span class="post-date">2015.09.21</span>
+  <p><img src="https://s-media-cache-ak0.pinimg.com/474x/cc/1d/10/cc1d10f10629131cbe16645cfd2a240f.jpg" /></p>
+
+<p>Life has been disrupting my study time a lot in the last week.  I finally got some uninterrupted time to power through a lot of lessons and assignments to get caught up yesterday.  About 8 hours in I was feeling a lot like that classic Far Side above.</p>
+
+<p>With the intensity of some of my study sessions I worry about retention.  I promise myself I’ll go back and run through all these basics again to reinforce what I’m learning.  Time constraints may make that a difficult proposition.  But at least I am reinforcing what I learn as I encounter different concepts in different contexts and can thus build complex interconnections of neural pathways.</p>
+
+<p>In programming for a computer, simple and elegant are ideal.  Make things work in the least complex fashion and eliminate potential points of failure through conscious design and careful implementation.</p>
+
+<p>In programming a human brain the more ways you can find to build pointers to new knowledge the better it will stick.  Perhaps that’s why I write mental methods to describe processes I encounter in the  world.  And revisit them when I learn more about Ruby, refining and refactoring.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">puts</span> <span class="s2">&quot;Number of wags?&quot;</span>
+<span class="n">wags</span> <span class="o">=</span> <span class="nb">gets</span><span class="o">.</span><span class="n">chomp</span><span class="o">.</span><span class="n">to_i</span>
+
+<span class="k">def</span> <span class="nf">tailwags</span><span class="p">(</span><span class="n">wags</span><span class="p">)</span>
+	<span class="n">side</span> <span class="o">=</span> <span class="s2">&quot;right&quot;</span>
+	<span class="n">wags</span><span class="o">.</span><span class="n">times</span> <span class="k">do</span>
+	    <span class="nb">puts</span> <span class="n">side</span>
+    	<span class="k">if</span> <span class="n">side</span>  <span class="o">==</span> <span class="s2">&quot;right&quot;</span>
+    		<span class="n">side</span> <span class="o">=</span> <span class="s2">&quot;left&quot;</span>
+    	<span class="k">elsif</span> <span class="n">side</span> <span class="o">==</span> <span class="s2">&quot;left&quot;</span>
+    		<span class="n">side</span> <span class="o">=</span> <span class="s2">&quot;right&quot;</span>
+    	<span class="k">end</span>
+    <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="n">tailwags</span><span class="p">(</span><span class="n">wags</span><span class="p">)</span></code></pre></div>
+
+<p>I was watching water boil the other day, trying to picture the code I would write to describe the transformation of thermal to exothermic to kinetic energy that happens when water boils.  I don’t have that one yet, perhaps in the future.</p>
+
+<p>Hmm… now I’m relating this back to OOP and trying to decide if I should define a Class for Boil and define Methods for types of energy transformations and for the chemical process of breaking apart the H<sub>2</sub>O molecule within that Class.</p>
+
+<p>There we have it.  Interconnections.  Reinforcing each bit of new knowledge I gain about Ruby by connecting it back to other knowledge that is already in my brain.  Sometime this takes me off on tangents.  (Like when I use the word ‘tangents’ and then flash on writing a method to compute tangents to a circle, and a Method to circumnavigate a circle within a Class for Circle… which takes me back to my Logo days and “down turtle” as I program the computer to draw a circle.)</p>
+
+<p class="message">
+This trippy programming-of-yore flashback has been brought to you by the letter: <span style="Font-size: 24px">ə</span>
+</p>
+
+<p>See?  Buffer Overflow.  Perhaps it’s time for a reboot.  :-)</p>
+
+<p>And now back to our regularly scheduled programming.</p>
+
+<p>~AMP</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2016/05/30/downtime/">
+            Downtime
+            <small>2016.05.30</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/12/07/about-time/">
+            About Time
+            <small>2015.12.07</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/11/02/deep-dive-week-in-review/">
+            Deep Dive Week In Review
+            <small>2015.11.02</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

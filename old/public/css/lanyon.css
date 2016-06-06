@@ -453,18 +453,6 @@ a.pagination-item:hover {
   color: #440044;
 }
 
- /* My Red Sands Theme http://www.color-hex.com/color/7a241e */
-.amprs .sidebar,
-.amprs .sidebar-toggle:active,
-.amprs #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #7a241e;
-}
-.amprs .container a,
-.amprs .sidebar-toggle,
-.amprs .related-posts li a:hover {
-  color: #7a241e;
-}
-
 /* My 2nd purple theme */
 .amptheme2 .sidebar,
 .amptheme2 .sidebar-toggle:active,

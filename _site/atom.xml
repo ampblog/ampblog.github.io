@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>AMPed</title>
+ <link href="http://ampblog.github.io/atom.xml" rel="self"/>
+ <link href="http://ampblog.github.io/"/>
+ <updated>2016-06-05T19:45:11-05:00</updated>
+ <id>http://ampblog.github.io</id>
+ <author>
+   <name>amarkpark</name>
+   <email>amarkpark@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Downtime</title>
+   <link href="http://ampblog.github.io/2016/05/30/downtime/"/>
+   <updated>2016-05-30T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2016/05/30/downtime</id>
+   <content type="html">&lt;p&gt;There are days when the spirit may be willing but I just can’t seem to buckle down and dive into the code.&lt;/p&gt;
+
+&lt;p&gt;On those days when I can’t find my A-game with two hands and a flashlight I often find it is beneficial to watch coding videos. It’s a passive activity that can still pro-actively add to my personal &lt;b&gt;&lt;i&gt;knowledge::base&lt;/i&gt;&lt;/b&gt; and help advance my skills.&lt;/p&gt;
+
+&lt;p&gt;Often these will be Railscasts or DevTips videos that actually help me learn skills for specific tasks I’m trying to achieve in an active project or coding challenge.  Occasionally they’ll be inspirational TED videos or Vodcasts by developers ‘in the trenches’ that address shared experiences.&lt;/p&gt;
+
+&lt;p&gt;One Youtube channel I adore is &lt;a href=&quot;https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q&quot;&gt;funFunFUNction&lt;/a&gt;. &lt;a href=&quot;https://twitter.com/mpjme&quot;&gt;mpjme&lt;/a&gt; is a riot and among other things his episode on the &lt;a href=&quot;https://youtu.be/2qYll837a_0&quot;&gt;Phases in the life of a Developer&lt;/a&gt; helped me to stop being fixated on striving to achieve perfection of elegant code and let me stop worrying that I would be drummed out of the Rails community for writing If/Then statements longhand.  (They’re freakin’ EASY TO READ, PEOPLE!)&lt;/p&gt;
+
+&lt;p&gt;I keep a handy list of videos I’d like to watch and topics I’d like to investigate for those days when the raw code isn’t speaking to me.  I try to use my mental downtime to my advantage in the fine tradition of Sesame Street.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-little-perspective-and-flexibility-go-a-long-way&quot;&gt;A little perspective and flexibility go a long way&lt;/h2&gt;
+
+&lt;p&gt;While it IS important to keep working on your skills and adding to your knowledge that doesn’t have to mean an intense full-day-of-coding practice EVERY DAY. Coming up for air from time to time will act as a natural flow control valve to limit the input to manageable chunks.  It will give your brain a chance to chew and swallow what you’ve been feeding it.  Try to do it all at once and you may just suffer from information overload.&lt;/p&gt;
+
+&lt;p&gt;Spend a few hours hip-deep in code then go read or write a blog post.  Read an article.  Catch up on industry news.  Watch a video.  Take a walk.  Pacing yourself will do wonders for retention.  DON’T try to do it all at once.  You can’t upload this knowledge a la the “I know Kung-Fu” scene from The Matrix (much as we may all WANT to do it that way!)&lt;/p&gt;
+
+&lt;p&gt;Working at this 6-10 hours a day, 7 days a week for weeks on end may be a great way to learn but it’s also a great way to blow a fuse.&lt;/p&gt;
+
+&lt;p&gt;So on those days when you just can’t bring your A-game, take a step back, find a distraction, watch an industry-specific vodcast or screencast. Better yet take SEVERAL steps, all the way out the front door.  See that scary bright electromagnetic disturbance in the sky?  That’s the sun.  Yeah it’s trying to kill you, but a little bit of exposure to it daily will actually improve your overall health and well-being.&lt;/p&gt;
+
+&lt;p&gt;Health and wellness will give you the strength to sit still and stare at a screen for 16 hours a day and WRITE MORE CODE!  Mwa-Hahahahahahahahahahaha!&lt;/p&gt;
+
+&lt;p&gt;Um.  Pardon me.  I think I’ll step outside for a few minutes…&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>About Time</title>
+   <link href="http://ampblog.github.io/2015/12/07/about-time/"/>
+   <updated>2015-12-07T00:00:00-06:00</updated>
+   <id>http://ampblog.github.io/2015/12/07/about-time</id>
+   <content type="html">&lt;p&gt;Much as I wish this were an &lt;a href=&quot;http://alanwatts.com/&quot;&gt;Allen Watts&lt;/a&gt;-esque style discourse on the eternal yet ephemeral nature of time, my Post Title is more a sign of contrition… I have let my blog lapse for a month as I transitioned from a student to… well something approaching ‘Intern’ on the learning spectrum.&lt;/p&gt;
+
+&lt;p&gt;My last month in &lt;a href=&quot;http://www.thefirehoseproject.com/&quot;&gt;the Firehose Project&lt;/a&gt; was intense and fulfilling and draining all at the same time. I was rushing to finish a few solo projects and starting a group project and trying to cram as much learning and doing into my last precious days as I could.&lt;/p&gt;
+
+&lt;p&gt;Did I emerge from the program a Ruby on Rails Expert? Nope. But I DID emerge as a well-indoctrinated Ruby on Rails Novice with some solid skills and a hunger to build upon them. As with any new discipline, I now have a much better idea of the scope of what I do not know. And I add to my knowledge and skills daily.&lt;/p&gt;
+
+&lt;p&gt;I am currently working on a group project with a team of FHP students and a skilled Lead (Group Mentor) in the “Product Manager” role (though sometimes that may be closer to a kindergarten teacher role - he wrangles cats and bolsters egos and makes sure we clean up our Legos™… hmm come to think of it that’s probably about right for “Product Manager”)&lt;/p&gt;
+
+&lt;p&gt;Hard to describe the highs and lows of this venture. A friend asked me yesterday how I like it. And here is the gist (no github pun intended, but there it is!) of my response(s):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It is good, frustrating, up-hill progress that has me working 10-12+ hours in a stretch without looking up.” “I love it so long as I don’t spend more than ~24 hours hard-core stuck.” “It stimulates my brain.” “Every little section I finish is a new reason to party.” “I get to see results of my work. It’s like editing sound, there is immediate gratification and satisfaction.” “I get to move Trello cards from Backlog to In Progress to Completed and get little stickers of accomplishment just like flippin’ kindergarten! I LOVE IT!” –me&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This group project is kicking my arse, but in a GOOD way. It challenges me and keeps me on my toes and helps me learn and practice all sorts of useful skills that run the &lt;a href=&quot;https://github.com/FallGambit&quot;&gt;Gambit&lt;/a&gt; from working on a team to version-control to the nuts-and-bolts of writing code. I am utterly leveling up my TDD and Git skills. No question. And the satisfaction of watching our App grow from printed instructions to a functional piece of software is BRILLIANT!&lt;/p&gt;
+
+&lt;p&gt;I’m not saying there haven’t been challenging days, but each stumbling block is a learning-experience-in-disguise and each frustration is the potential for satisfaction. Now if only I could remember that whilst in the thick of it!&lt;/p&gt;
+
+&lt;div class=&quot;message&quot;&gt;
+  Heh... On that note: I happened to be watching Bill Burr last night (don&#39;t hold it against me, I didn&#39;t pick it!) and he said something about the process of learning home repairs and maintenance that I feel COMPLETELY applies to the process of learning to code... The pertinent sound-byte is in the first 10 seconds, watch the rest at your own risk. ;-)
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Kxx3ShuqlJc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;just-the-facts-maam&quot;&gt;Just the facts Ma’am…&lt;/h2&gt;
+
+&lt;p&gt;I haven’t felt this happy/content/satisfied on a daily basis for a very long time. I am learning and growing my coding skills daily and having a blast. Choosing to Ride the Rails has started me in a truly rich and positive new direction for my life.&lt;/p&gt;
+
+&lt;p&gt;Today I feel much like I felt in my &lt;a href=&quot;/2015/09/02/epiphany/&quot;&gt;First Post&lt;/a&gt; “The Adventure Begins…” and I am eager to get to the next stop on the Ruby Express.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Deep Dive Week In Review</title>
+   <link href="http://ampblog.github.io/2015/11/02/deep-dive-week-in-review/"/>
+   <updated>2015-11-02T00:00:00-06:00</updated>
+   <id>http://ampblog.github.io/2015/11/02/deep-dive-week-in-review</id>
+   <content type="html">&lt;p&gt;My coding mentor instructed me last week to “Dive Deep” while working on my current App. Essentially he wanted me to spend time understanding the whys and hows of all the commands, connections, methods, assets, interactions between components of the MVC, calls to the ORM… Anything I touched I was supposed to deepen my understanding of. I even took notes longhand « with a pen « in a paper notebook for some of these.&lt;/p&gt;
+
+&lt;p&gt;The following (non)exhaustive list of what I touched upon (and sometimes snorkeled in) during my Curricular Annotations this past week includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Il8n - Internationalization: &lt;a href=&quot;http://guides.rubyonrails.org/i18n.html#overview-of-the-i18n-api-features&quot;&gt;il8n API&lt;/a&gt;, &lt;a href=&quot;http://railscasts.com/episodes/138-i18n&quot;&gt;il8n Railscast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RESTful Archetecture: &lt;a href=&quot;https://en.wikipedia.org/wiki/Representational_state_transfer&quot;&gt;Representational State Transfer&lt;/a&gt;, &lt;a href=&quot;http://railscasts.com/episodes/35-custom-rest-actions&quot;&gt;Custom REST actions Railscast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;HTTP Verbs: &lt;a href=&quot;http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html&quot;&gt;rfc2616 - a friendly version&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://guides.rubyonrails.org/action_controller_overview.html#parameters&quot;&gt;Parameters:&lt;/a&gt; (String vs. Post &amp;amp; Strong)&lt;/li&gt;
+  &lt;li&gt;Params Hash/Indifferent Access: &lt;a href=&quot;http://jocellyn.cz/2014/05/03/hash-with-indifferent-access.html&quot;&gt;Jocellyn&lt;/a&gt;, &lt;a href=&quot;http://codefol.io/posts/Deep-Rails-Understanding-HashWithIndifferentAccess-Understanding-the-Params-Hash&quot;&gt;CodeFolio&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RAKE and Rakefiles: &lt;a href=&quot;http://martinfowler.com/articles/rake.html&quot;&gt;Using Rake Build Language&lt;/a&gt;, &lt;a href=&quot;http://erik.debill.org/2011/12/04/rake-for-rails-developers&quot;&gt;Erik’s&lt;/a&gt;, &lt;a href=&quot;http://www.jbarnette.com/2009/08/27/on-rake.html&quot;&gt;On Rake&lt;/a&gt;, &lt;a href=&quot;http://railscasts.com/episodes/66-custom-rake-tasks&quot;&gt;Custom Rake Tasks RailsCast&lt;/a&gt;, &lt;a href=&quot;http://ruby-doc.org/core-1.9.3/doc/rake/rakefile_rdoc.html&quot;&gt;rakefile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Imperatives, Declaratives, Dependencies&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.justinweiss.com/articles/4-simple-memoization-patterns-in-ruby-and-one-gem/&quot;&gt;Memoization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Rails &lt;a href=&quot;http://6ftdan.com/allyourdev/2015/01/28/rails-helper-methods/&quot;&gt;helper_methods&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ActiveRecord migrations (how to &lt;a href=&quot;http://edgeguides.rubyonrails.org/active_record_migrations.html#creating-a-standalone-migration&quot;&gt;generate/name&lt;/a&gt; them so that they pre-populate)&lt;/li&gt;
+  &lt;li&gt;FactoryGirl Factories (best way to generate test data with table dependencies to test validations): &lt;a href=&quot;http://stackoverflow.com/questions/4410854/dependent-attributes-in-factory-girl&quot;&gt;Dependent Attributes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://guides.rubyonrails.org/action_controller_overview.html#the-flash&quot;&gt;Flash and Status codes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://guides.rubyonrails.org/layouts_and_rendering.html&quot;&gt;Rails Layouts and Rendering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://guides.rubyonrails.org/routing.html&quot;&gt;Rails Resource Routing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Started on &lt;a href=&quot;http://guides.rubyonrails.org/active_support_core_extensions.html&quot;&gt;Active Support Core Extensions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Peeked at &lt;a href=&quot;http://slim-lang.com/&quot;&gt;Slim&lt;/a&gt; and &lt;a href=&quot;http://naltatis.github.io/jade-syntax-docs/&quot;&gt;Jade&lt;/a&gt; Templating engines: &lt;a href=&quot;http://fredwu.me/post/1338899831/slim-a-fast-and-lightweight-rails-template&quot;&gt;FredWu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/docs/git-commit&quot;&gt;git commit –amend&lt;/a&gt;, &lt;a href=&quot;https://www.atlassian.com/git/tutorials/rewriting-history/git-commit--amend/&quot;&gt;Awesome Tutorials&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CSS Units for fonts and responsive CSS: &lt;a href=&quot;https://www.youtube.com/watch?v=qrduUUdxBSY&quot;&gt;Awesome Dev Tips&lt;/a&gt;&lt;sup&gt;1&lt;/sup&gt;, &lt;a href=&quot;http://stackoverflow.com/a/18462893#18462893&quot;&gt;CSS for responsive centered image&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Even bookmarked another Framework: &lt;a href=&quot;http://jgaskins.org/blog/2015/01/17/clearwater-a-front-end-web-framework-in-ruby&quot;&gt;Clearwater&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Yeah. The ones without links are still cooking. Suffice it to say I’ve been drinking from the Firehose this past week. And I have more homework/leads to research more of for the COMING week. No big surprise there, I’ve still got lots to learn and tons to review. I’m pushing myself to progress as far as I can prior to the start of my Group Project, now slated to kick off come Saturday… 5 days from now.&lt;/p&gt;
+
+&lt;p&gt;Caught somewhere between nervous and eager at this point. I should write some test classes to help me determine which way is UP once we get going. But would they be Functional or Unit tests? Functional tests on the GravitationalForcesController?&lt;/p&gt;
+
+&lt;p&gt;Something to contemplate.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt; 1. It TRULY pays to read community posts! - Thanks to community-active FHP alumnus Colin Rubbert for the link to that Dev Tips! &lt;/small&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>A Number Stack</title>
+   <link href="http://ampblog.github.io/2015/10/23/a-number-stack/"/>
+   <updated>2015-10-23T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/10/23/a-number-stack</id>
+   <content type="html">&lt;p&gt;So I wrote a Stack Class in the process of working on a new coding challenge yesterday. The Stack was explained as an abstract data structure that is Last-In-First-Out. I needed to have a functional stack to complete my assignment and at some point I went off on a tangent to code a Number Stack.&lt;/p&gt;
+
+&lt;p&gt;This is somewhat my ode to the IP Stack, in that it encodes data and bit lengths to represent items on the Stack.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;NumberStack&lt;/span&gt;
+	&lt;span class=&quot;kp&quot;&gt;attr_reader&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:topval&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;
+		&lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;pop&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;byteslice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;topval&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;byteslice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;remainder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;byteslice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remainder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;topval&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/amarkpark/ee48eeaf7803d200b085.js&quot;&gt;Or Find Gist here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a functional limit to the integers that can be pushed to the stack of 1152921504606846975.&lt;/p&gt;
+
+&lt;p&gt;That is “fffffffffffffff” in Hexadecimal.&lt;/p&gt;
+
+&lt;p&gt;I could increase the functional limit by changing the base I convert to to push the data onto the stack, but I didn’t need a gianormous limit and I’m used to working with Hex so I kept it simple.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Check Your Assumptions</title>
+   <link href="http://ampblog.github.io/2015/10/19/check-your-assumptions/"/>
+   <updated>2015-10-19T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/10/19/check-your-assumptions</id>
+   <content type="html">&lt;p&gt;I spent much of the weekend frustrated. The REASON I was frustrated was because I didn’t Check My Assumptions.&lt;/p&gt;
+
+&lt;p&gt;I was working on a coding challenge.  My solution involved having two copies of a multi-dimensional Array.  I would inspect the first copy (hereafter FC) and based on the results of the inspection make CHANGES to the second copy (SC). This wasn’t necessarily a difficult proposition.  I had already solved this problem once and was working on a refactor to improve efficiency.&lt;/p&gt;
+
+&lt;p&gt;I started with a clone of my original code and I set about making modifications to eliminate a secondary method and fold it in to the initial iteration of the Array.&lt;/p&gt;
+
+&lt;p&gt;Every time I ran the refactored code I found that it was not only changing the SC of the Array, but also the FC. &lt;em&gt;Note: Needed deep copy by way of Marshaling, ‘tis another story.&lt;sup&gt;1&lt;/sup&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The thing that was frustrating the begeebers out of me was that each time I reran my original solution IT WORKED!  The FC was unchanged and the SC was properly modified HUZZAH!&lt;/p&gt;
+
+&lt;p&gt;…Except that that WASN’T actually the case.&lt;/p&gt;
+
+&lt;p&gt;I needed to &lt;span&gt;&lt;u&gt;Check My Assumptions&lt;/u&gt;&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;I forgot that I had changed the order of the methods I called when I tested my refactored script. And while the original solution DID properly make changes to the SC, it WAS simultaneously changing the FC. Problem was I didn’t know that because I was only inspecting the FC BEFORE calling the method to apply the changes to the SC.&lt;/p&gt;
+
+&lt;p&gt;I hadn’t held my test methodology constant in the refactored script, so I was seeing a different set of results. Once I realized my error I changed the order I was calling the methods in my original solution script and found that IT TOO had changed the FC at the same time it was changing the SC.&lt;/p&gt;
+
+&lt;p&gt;Had I just Checked My Assumptions I might have saved myself days of frustration and headaches as I chanted over and over “But it worked in the original solution!”&lt;/p&gt;
+
+&lt;h2 id=&quot;check-your-assumptions-at-the-door&quot;&gt;Check Your Assumptions At The Door!&lt;/h2&gt;
+
+&lt;p&gt;The moral to this story is this: Check Your Assumptions. Start with a fresh pair of eyes EACH AND EVERY TIME you look at the code. Reset your expectations. Go back and examine your code, your methodology, your order of invocation. Faulty assumptions are PEBKAC 100% of the time, so CYA.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;1. &lt;a href=&quot;http://ruby-doc.org/core-2.2.2/Marshal.html&quot;&gt;Marshal&lt;/a&gt;, and &lt;a href=&quot;http://stackoverflow.com/a/1465787#1465787&quot;&gt;a lovely way to invoke Marshaling to achieve Deep Copy&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Leveling Up</title>
+   <link href="http://ampblog.github.io/2015/10/12/leveling-up/"/>
+   <updated>2015-10-12T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/10/12/leveling-up</id>
+   <content type="html">&lt;p&gt;Oh the Whirlwind…&lt;/p&gt;
+
+&lt;p&gt;Since my last post I think it’s fair to say that I have Leveled Up, both in Ruby and in Rails.&lt;/p&gt;
+
+&lt;h2 id=&quot;leveling-up-rails-with-tdd&quot;&gt;Leveling Up Rails with TDD&lt;/h2&gt;
+
+&lt;p&gt;Since my last post I have been working on a new App, the catch is that this one is being built from the ground up with &lt;b&gt;T&lt;/b&gt;est &lt;b&gt;D&lt;/b&gt;riven &lt;b&gt;D&lt;/b&gt;evelopment practice of writing the tests first and then coding the feature.  This makes incremental changes less likely to break any necessary features, it also seems to increase the time it takes to build anything by orders of magnitude.&lt;/p&gt;
+
+&lt;p&gt;Granted, the first set of features took the longest to build the tests for first, by the second and third I was starting to get the hang of it.  Still, the essential process is 1) Build tests that fail because the feature isn’t built yet.  2) Build out the feature until the tests pass.  Generally speaking this includes multiple Assertions per test to account for facets of the feature in question, such that as the feature is built in stages, the test for that feature goes from Failing, to Erring on successive Assertions, to passing all Assertions, at which point the feature SHOULD be built as designed.&lt;/p&gt;
+
+&lt;p&gt;By the third set of Tests/Build-outs I was really starting to feel comfortable with the process.  I know I have a lot to learn, but going from building apps haphazardly to building with TDD seems like a solid case of Leveling Up.  That was my Rails breakthrough.&lt;/p&gt;
+
+&lt;h2 id=&quot;leveling-up-ruby-with-coding-challenges&quot;&gt;Leveling Up Ruby with Coding Challenges&lt;/h2&gt;
+
+&lt;p&gt;I also successfully completed about 3 dozen &lt;a href=&quot;http://www.codewars.com/&quot;&gt;CodeWars&lt;/a&gt; Kata.  I think technically that has me Leveled up twice… I went from 8kyu to 6kyu… I have that much-coveted score of “69” … SO not kidding. Yeah moving on. What a brilliant learning tool! Form of a game, form of a challenge, form of a competition… however you take it, CodeWars can help anyone Level Up their programming skills… I was working in Ruby but they also have Clojure, CoffeeScript, C#, Haskell, Java, JavaScript and Python.  I am considering myself well-informed at this moment because I have at least HEARD of the majority of those languages. Yikes. This is what I get for dropping out of programming for two and a half decades. I have a WEE bit of catching up to do. Thankfully CodeWars can help!&lt;/p&gt;
+
+&lt;p&gt;In the meantime I also completed a coding challenge in &lt;a href=&quot;http://www.thefirehoseproject.com/&quot;&gt;FHP&lt;/a&gt; that certainly WAS a challenge.  I beat my head against the wall for hours at a time for two days and then in the wee hours of the morning when I should have been sleeping a new approach occurred to me and sure enough on day three I was able to tackle the challenge from a different direction. The change in perspective allowed me to solve the problem that had me pulling my hair out for two days. This harkens back to my days working at the Center for Creative Learning and some of the techniques I encountered there. Essentially, if you can’t get in the front door, try climbing in a window around the side. But I feel pretty strongly that I Leveled Up my Ruby capabilities along the way.&lt;/p&gt;
+
+&lt;p&gt;I am finding that breakthroughs in skill level tend to follow shortly on the heels of feeling frustrated to the breaking point, and/or beating my head against a brick wall. I take my skills as far as they can go and then I have to Level Up in order to progress further, unlocking both capacity and potential in the process. There is a distinctive feeling of that “click”… the intangible sensation that pieces of the puzzle have just moved into place and the picture has become more clear.  It is a good feeling. Gives me just the right surge of energy to start tackling the next level.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Arcana</title>
+   <link href="http://ampblog.github.io/2015/10/01/arcana/"/>
+   <updated>2015-10-01T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/10/01/arcana</id>
+   <content type="html">&lt;p&gt;&lt;i&gt;1001 represents the decimal 9 in binary.&lt;/i&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Any sufficiently advanced technology is indistinguishable from magic.” – Arthur C. Clarke&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The magic that conjures the form and function of the modern tech-centric world is an excellent example of Arcane Knowledge. 99% of the users consuming ubiquitous technologies of this age have NO CLUE how or why they work, or how to build them. They open smartphones and browsers and are instantly connected and living augmented reality lives without even knowing what “Augmented Reality” means.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stargazing apps that superimpose constellations upon the night sky…&lt;/li&gt;
+  &lt;li&gt;Virtual museum tourguides enhancing the physical collections with interactive digital multimedia tours…&lt;/li&gt;
+  &lt;li&gt;Heads Up Displays built in to windshields and glasses…&lt;/li&gt;
+  &lt;li&gt;Modern capture-the-flag games that allow you to take over virtual power centers if you are in physical proximity to their virtual geophysical location…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Examples of magic that are everyday realities RIGHT NOW. Most of the users of these technologies have NO FLIPPIN CLUE how they work. Heck, most consumers of modern technology probably don’t know how radio transmissions can make sound come out of a box.&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;MMXV represents the year 2015 in Roman Numerals.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Though technology is central to the essential infrastructure of much of society today, most folks who use it don’t know how to build it, service it, or advance it. Those skills are elite specializations, the exclusive purview of practitioners of modern magics: engineers, developers and sysadmins. Arcane Knowledge.&lt;/p&gt;
+
+&lt;p&gt;The brilliance of living in this modern world is that, while the knowledge may be Arcane, access to that knowledge is no longer limited to a subset of sacred initiates inducted into secret societies. Just as the technologies are ubiquitous, they are oftentimes also transparent. The truth is out there!&lt;/p&gt;
+
+&lt;p&gt;Anyone willing to dedicate the time and mental resources to learning the alchemy and spellcasting of conjuring modern technological wonders has almost unlimited access to this Arcana. Not only can you learn it, you can then feed back into the system and build upon and advance the collective knowledgebase. Cooperative perpetuation.&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;One Mole is 6.022 x 10&lt;sup&gt;23&lt;/sup&gt; elementary particles. Avogadro’s Number.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;As magicians who conjure modern wonders do so by standing on the shoulders of giants, there are whole communities of peer magicians dedicated to helping anyone who approaches those giants to climb up and stand tall. We collectively curate our magical tome. We are all responsible for learning, practicing, and teaching each other. Thus assuring there will always be new giants, and there will always be another wave climbing upon their shoulders.&lt;/p&gt;
+
+&lt;p class=&quot;message&quot;&gt;
+	When Michael Jordan began to play professionally he negotiated a contract to include a &quot;Love of the Game&quot; clause. Essentially he reserved the right to play basketball pick-up games anywhere, any time and with anyone - because he loved to play.
+&lt;/p&gt;
+
+&lt;p&gt;The reality of technology today is that the Arcana is now held in cooperative public trusts by those who love technology rather than antagonistic private vaults. Anyone who WANTS to learn to conjure the form and function of the modern tech-centric world has an open invitation to experience endless wonder. Anyone who thinks they can build it better has the tools and source materials at their disposal. And we all benefit from sharing in and contributing to this public repository of knowledge for love of the game.&lt;/p&gt;
+
+&lt;p&gt;Code is an open book. The Arcane is open source. Drink the Kool-Aid, dive down the Rabbit Hole, build a better mouse.&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Just don’t ask me to explain the finer points of an internal combustion engine.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;1. A bad Apple Computer/1984/Xerox PARC joke.&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;… Yeah, OK, so I’ve kinda sorta gone off the Rails. Pun intended. Best I can figure is I’m working my way around to tying it all together.&lt;/small&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ode to Coffee</title>
+   <link href="http://ampblog.github.io/2015/09/27/ode-to-coffee/"/>
+   <updated>2015-09-27T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/09/27/ode-to-coffee</id>
+   <content type="html">&lt;h2 id=&quot;national-coffee-day-2015&quot;&gt;National Coffee Day 2015&lt;/h2&gt;
+
+&lt;p&gt;I love coffee.  There can be no doubt in the minds of any person who has ever met me that I have a raging affinity for the sacred ambrosia: dark, hot, rich, decadent COFFEE.&lt;/p&gt;
+
+&lt;p&gt;To illustrate, I have precisely ONE item in my Zombie-Apocalypse-preparedness kit… a hand-crank burr grinder.  I have not yet managed to start my own cottage coffee plantation in a greenhouse in my back yard to GROW my own beans to grind IN the grinder, I have not yet solved the problem of how then to ROAST the coffee I will one day grow for myself (I’m sure it can be done in a skillet over an open flame in a pinch) but by all that is holy if I am ever without power I WILL HAVE THE ABILIY TO GRIND MY BEANS.&lt;/p&gt;
+
+&lt;p&gt;I acknowledge that this madness, but it is my madness.&lt;/p&gt;
+
+&lt;p&gt;In the spirit of National Coffee Day I wanted to post the first Gist I ever posted on Github:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/amarkpark/d6570856b3531c475513.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;And as I was contemplating this special occasion, over a cup of rich medium roast, it occurred to me that every time I edit the Gemfile for a RoR project I see &lt;a href=&quot;https://github.com/rails/coffee-rails&quot;&gt;Coffee-Rails&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have wondered what it was so it seemed like a good time to look into it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;CoffeeScript adapter for the Rails asset pipeline. Also adds support for .coffee views.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And from &lt;a href=&quot;http://coffeescript.org/&quot;&gt;coffeescript.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;span&gt;&lt;b&gt;CoffeeScript is a little language that compiles into JavaScript.&lt;/b&gt;&lt;span&gt; Underneath that awkward Java-esque patina, JavaScript has always had a gorgeous heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;CoffeeScript is to JavaScript what Ruby is to C.  Granted, that is a vast oversimplification.  But this is an interesting parallel.  Take something that, while powerful and functional in its own right, is perhaps convoluted and complex and make it elegant and simple.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If I have seen further than others, it is by standing upon the shoulders of giants.” – Isaac Newton&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Progress is made by advancing the collective knowledge. Ruby makes OOP elegant and simple.  CoffeeScript makes JavaScript elegant and simple. These are the tools of the current builders.&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;If I want to light a fire I don’t rub two sticks together, I whip out a Blu-flame Zippo. If I want coffee I grab a pack of beans, grind them, and brew them.  I didn’t grow the beans, I didn’t build the grinder, but they are the tools I use to make something essential every day.&lt;/p&gt;
+
+&lt;p&gt;The tools available to those of us who wish to build Apps are elegant and powerful. Thus we may stand upon the shoulders of giants, coffee in hand, and build the future.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+
+&lt;p&gt;P.S. I just want to plug &lt;a href=&quot;http://railscasts.com/episodes/267-coffeescript-basics&quot;&gt;RailsCasts #267 CoffeeScript Basics&lt;/a&gt; while I’m at it.  Aimed at viewers with prior knowledge of JavaScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt; 1. Reoccurring theme(s) may be imminent… &lt;/small&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Buffer Overflow</title>
+   <link href="http://ampblog.github.io/2015/09/21/buffer-overflow/"/>
+   <updated>2015-09-21T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/09/21/buffer-overflow</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://s-media-cache-ak0.pinimg.com/474x/cc/1d/10/cc1d10f10629131cbe16645cfd2a240f.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Life has been disrupting my study time a lot in the last week.  I finally got some uninterrupted time to power through a lot of lessons and assignments to get caught up yesterday.  About 8 hours in I was feeling a lot like that classic Far Side above.&lt;/p&gt;
+
+&lt;p&gt;With the intensity of some of my study sessions I worry about retention.  I promise myself I’ll go back and run through all these basics again to reinforce what I’m learning.  Time constraints may make that a difficult proposition.  But at least I am reinforcing what I learn as I encounter different concepts in different contexts and can thus build complex interconnections of neural pathways.&lt;/p&gt;
+
+&lt;p&gt;In programming for a computer, simple and elegant are ideal.  Make things work in the least complex fashion and eliminate potential points of failure through conscious design and careful implementation.&lt;/p&gt;
+
+&lt;p&gt;In programming a human brain the more ways you can find to build pointers to new knowledge the better it will stick.  Perhaps that’s why I write mental methods to describe processes I encounter in the  world.  And revisit them when I learn more about Ruby, refining and refactoring.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Number of wags?&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;gets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chomp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_i&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;tailwags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;side&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;right&amp;quot;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;times&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+	    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;side&lt;/span&gt;
+    	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;side&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;right&amp;quot;&lt;/span&gt;
+    		&lt;span class=&quot;n&quot;&gt;side&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;left&amp;quot;&lt;/span&gt;
+    	&lt;span class=&quot;k&quot;&gt;elsif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;side&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;left&amp;quot;&lt;/span&gt;
+    		&lt;span class=&quot;n&quot;&gt;side&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;right&amp;quot;&lt;/span&gt;
+    	&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;tailwags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I was watching water boil the other day, trying to picture the code I would write to describe the transformation of thermal to exothermic to kinetic energy that happens when water boils.  I don’t have that one yet, perhaps in the future.&lt;/p&gt;
+
+&lt;p&gt;Hmm… now I’m relating this back to OOP and trying to decide if I should define a Class for Boil and define Methods for types of energy transformations and for the chemical process of breaking apart the H&lt;sub&gt;2&lt;/sub&gt;O molecule within that Class.&lt;/p&gt;
+
+&lt;p&gt;There we have it.  Interconnections.  Reinforcing each bit of new knowledge I gain about Ruby by connecting it back to other knowledge that is already in my brain.  Sometime this takes me off on tangents.  (Like when I use the word ‘tangents’ and then flash on writing a method to compute tangents to a circle, and a Method to circumnavigate a circle within a Class for Circle… which takes me back to my Logo days and “down turtle” as I program the computer to draw a circle.)&lt;/p&gt;
+
+&lt;p class=&quot;message&quot;&gt;
+This trippy programming-of-yore flashback has been brought to you by the letter: &lt;span style=&quot;Font-size: 24px&quot;&gt;ə&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p&gt;See?  Buffer Overflow.  Perhaps it’s time for a reboot.  :-)&lt;/p&gt;
+
+&lt;p&gt;And now back to our regularly scheduled programming.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Syntax and Context</title>
+   <link href="http://ampblog.github.io/2015/09/18/syntax-and-context/"/>
+   <updated>2015-09-18T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/09/18/syntax-and-context</id>
+   <content type="html">&lt;p&gt;Wow.  I can’t believe it’s been over a week since my last post.&lt;/p&gt;
+
+&lt;p&gt;I’ve been finishing up a second Web App and working on the fundamentals of Object Oriented Programming, building a class for playing cards and a class for a deck of cards and making them play well together (pun fully intended.)&lt;/p&gt;
+
+&lt;p&gt;Last night when I got home from playing DJ (note: I’m not a DJ, but sometimes I play one on the radio) I got back to the business of studying Ruby.  I wanted to at least read through my lesson/challenge for today so that I could let my brain crunch on it over night.  All hail unconscious cognition!&lt;/p&gt;
+
+&lt;p&gt;Problem was, when I was reading through one of several linked documents on Fun with Arrays I found a mildly confusing line of code using “«” to build a puts output.  Aroo?&lt;/p&gt;
+
+&lt;p&gt;Learning a new programming language is much like learning any communal human language.  Not only do you have to learn the vocabulary, you have to learn the proper sentence structure, syntax and punctuation.&lt;/p&gt;
+
+&lt;p&gt;In programming languages that means learning lots of new operators and syntax.  Programmers prefer to be, let us say, &lt;em&gt;EFFICIENT&lt;/em&gt; by nature (some may call it a tendency towards laziness,) so there are also a lot of contextual shortcuts used in programming languages.&lt;/p&gt;
+
+&lt;p&gt;Reading code is very similar to reading pure Physics or pure Math: Comprised of symbolic notations and flagrant abuse of the greek alphabet, it can be intimidating to the uninitiated.  Learning to read code can sometimes be the equivalent of learning to read hieroglyphics.  If you are caught without your Rosetta Stone it can be confusing at times.&lt;/p&gt;
+
+&lt;p&gt;That was certainly the position I found myself in as I was reading a blog post about 2D Arrays.  In it there was sample code using a puts statement with an each_index loop to walk through array values and output them to the screen with other characters and spaces to be organized in a meaningful way for the reader.&lt;/p&gt;
+
+&lt;p&gt;Working with Arrays, the “«” operator is generally used to push a value on to an array.  It was clearly NOT being used to do that in the puts statement.&lt;/p&gt;
+
+&lt;p&gt;After much searching and hair-pulling I found that in the context of Strings “«” is a concatenation symbol to append a value to the current string.  Granted I could see from the code and expected output that that was the &lt;em&gt;anticipated&lt;/em&gt; action of the symbol, but my journey to the supporting documentation led me a merry chase through the land of string-literals and Here Doc notation.&lt;/p&gt;
+
+&lt;p&gt;RTFM right?&lt;/p&gt;
+
+&lt;p&gt;I don’t know if this was a case of me missing that left turn at Albuquerque or a case of contextual foul.  I DO know that multiple functions of the “«” operator are now well-cemented in my brain, specifically BECAUSE it was a point of contention for me that required special attention for clarification.&lt;/p&gt;
+
+&lt;p&gt;I’m considering this detour as I would consider taking the scenic, tree-lined, hilly route on my Mean Streak… I’m out to enjoy the ride.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Community</title>
+   <link href="http://ampblog.github.io/2015/09/10/community/"/>
+   <updated>2015-09-10T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/09/10/community</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://momdipity.com/wp-content/uploads/2015/03/Vibe-Photo.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Peers.  Tribe.  Peeps.  Pack.  Niche.  Whatever name is meaningful to you the takeaway is this:  It’s good to have Community.&lt;/p&gt;
+
+&lt;p&gt;I spent a brief but priceless interval consulting and conversing with the student community at &lt;a href=&quot;http://www.thefirehoseproject.com/&quot;&gt;FHP&lt;/a&gt; this afternoon.  They were generously and eagerly helping me troubleshoot an App up on Heroku.  It was an amazing experience for me.&lt;/p&gt;
+
+&lt;p&gt;I am a rather self-sufficient sort.  Life-long caretaker personally and former Network Specialist/Sysadmin for 14½ years professionally.  I am USED to working without a net.  Having to figure stuff out for myself because there is nobody else to turn to.  That tends to be my Modus Operandi.  It’s my ground state.  My normal.&lt;/p&gt;
+
+&lt;p&gt;The half hour this afternoon where my fellow students and alumni acted as a sounding board for me was magic.  I don’t actually mean in the @chat instance scope per se, I mean in the $chat global or universal scope.  Today was inspirational, the hint of tomorrow++ was even more so.&lt;/p&gt;
+
+&lt;p&gt;Having folks to cooperatively collaborate with me, sharing of their knowledge and taking the time to toss ideas around with me was an immensely positive experience.  I can only hope this is what team development will be like.  I have always enjoyed brainstorming and group strategizing.  Everyone bringing their strengths to the table and building something grander than the sum of its parts.&lt;/p&gt;
+
+&lt;p&gt;I’ve spent a lot of time in the last few years contemplating the act of Finding Your Tribe. And while I can’t say I’m quite there just yet (my day-to-day life is still lacking in like-minded individuals) when it comes to being immersed in a supportive community and the power of that experience to help your dreams take flight I can say for certain that the experience is part of my current learning paradigm&lt;sup&gt;1&lt;/sup&gt; with the Firehose Project.  And today that hit home.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jpe-LKn-4gM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Scott talks about Community starting ~10:46.  But watch the whole thing, seriously.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt; 1. Heh… Paradigm… also known as a &lt;b&gt;Model&lt;/b&gt;.&lt;/small&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Learning By Failing</title>
+   <link href="http://ampblog.github.io/2015/09/07/learning-by-failing/"/>
+   <updated>2015-09-07T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/09/07/learning-by-failing</id>
+   <content type="html">&lt;p&gt;I’m just starting my third week of The Firehose Project online bootcamp. Thus far it has been a roller-coaster ride for me.  Days of intensity, days of distraction and days of quiet persistence.  Moments of sheer delight, moments of sheer frustration.  I’ve done as much soul-searching as I have pouring over code.&lt;/p&gt;
+
+&lt;p&gt;As with any new learning experience, I am often awed by the enormity of what I don’t know.  Perhaps that should read: I am often &lt;i&gt;overwhelmed&lt;/i&gt; by the enormity of what I don’t know.  Many-a-time I have no choice but to helplessly follow along where my lessons lead, trusting that some future chapter will shed light on what is not yet clear to me.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Good Code comes from experience, and often experience comes from bad Code.”&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At this point I am learning a great deal from my errors, typos, and mistakes.  Clever parallel to life, that.  After sludging through a particularly nasty experience, a little wiser for the pain, I generally say “Well I’m not going to do THAT again!”.&lt;/p&gt;
+
+&lt;p&gt;FHP is clever in their teaching style in that they intentionally write certain errors into the lessons.  The better to teach what NOT to do.  I enjoy spotting the errors ahead of time when I can, trying to determine how to avoid them.&lt;/p&gt;
+
+&lt;p&gt;As I read the objectives of each lesson I try to pinpoint what files I’ll have to edit, what methods I’ll have to add.  Given a new process, I try to apply what I learn early in the lesson to other parts of my current App before I am instructed to do so, to see if I grokk it well enough to run with it.&lt;/p&gt;
+
+&lt;p&gt;Most days I do everything I can to AVOID asking for help.  &lt;i&gt; Note: this is a blessing and a curse.&lt;/i&gt;  I learn more by figuring out for myself why something doesn’t work than I would by being spoon-fed the answer. BUT…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The woods are lovely, dark and deep,. But I have promises to keep,. And miles to go before I sleep,. And miles to go before I sleep.”&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There is always a new rabbit-hole to dive down here.  Always just one more detail to be hammered out before going back to the lesson.  I have to remind myself that I have a finite period for learning all FHP has to teach me and there is a point at which it will do me more harm than good to keep struggling on my own.&lt;/p&gt;
+
+&lt;h3 id=&quot;here-be-monsters&quot;&gt;Here be Monsters:&lt;/h3&gt;
+
+&lt;p&gt;Final thought for tonight… There is a REASON why uncharted waters held fictitious monsters.  The unknown can be a dark and frightening experience as you find your way.&lt;/p&gt;
+
+&lt;p&gt;There are always frustrations.  (Monsters to fight.)  Trying to learn and understand it all at once can get you lost, overwhelmed.  Sometimes there is no help but to take a step back and disconnect for a bit.  As much happy fun brain-candy as there is learning to code, an hour or two of a thorough distraction is like a server reboot.  Laugh.  Let it go.  Pick it up tomorrow.  Clear out the buffers, start fresh.&lt;/p&gt;
+
+&lt;p&gt;Unconscious cognition happens when you are focused on something else.  You may see clearly after a good night’s sleep and a playful interlude.&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;1. Shamlessly stolen from “Good judgment comes from experience, and often experience comes from bad judgment.” –Rita Mae Brown &lt;/small&gt;&lt;br /&gt;
+&lt;small&gt;2. &lt;u&gt;Stopping by Woods on a Snowy Evening&lt;/u&gt; BY ROBERT FROST&lt;/small&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Glassy-eyed Stare</title>
+   <link href="http://ampblog.github.io/2015/09/05/glassy-eyed-stare/"/>
+   <updated>2015-09-05T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/09/05/glassy-eyed-stare</id>
+   <content type="html">&lt;h2 id=&quot;v101&quot;&gt;v.1.0.1&lt;/h2&gt;
+
+&lt;p&gt;My goal for this morning was to do TWO things… change the colors of the titles and navdrawer, and change the format of the post date to YYYY.MM.DD&lt;/p&gt;
+
+&lt;p&gt;Sadly v1.0.1 of this blog represented at least 2 hours of work.  2 hours I didn’t have to spend.  AND I need to figure out how to fix the title links that link to the individual post pages.  I think it’s the same problem that I was having with content placement and relative vs. absolute paths.  As though perhaps something isn’t right in the layout hierarchy or the site.baseurl variable.  Meh.&lt;/p&gt;
+
+&lt;p&gt;I spent 12 hours coding and styling a Web App in my online Full-Stack bootcamp yesterday. I managed to make pagination function.  Then I looked at how many more chapters were left in the lesson for this particular App.  I had finished Chapter 3.  There are 13 total.&lt;/p&gt;
+
+&lt;p&gt;To say I was a tad deflated was an understatement.&lt;/p&gt;
+
+&lt;p&gt;We have a student Google+ group where we share and interface.  There are several posts there that describe a learning/enthusiam curve graph.  For certain I have taken the nose-dive into the major slump of the curves.  I am trying to keep my enthusiasm up as I learn how much I have to learn.  Trying to convince myself it may some day be worth it in the end when I may possibly get a job doing Full-Stack development for a living.&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;&lt;b&gt; Note the conditional statements above. &lt;/b&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Yep.  I’m having a hard time finding hope with two hands and a flashlight in my teeth right about now.&lt;/p&gt;
+
+&lt;p&gt;Time for a snack.  Maybe some &lt;a href=&quot;http://www.girlgeniusonline.com/ggmain/strips/ggmain20071015.jpg&quot;&gt;Spark Roast&lt;/a&gt; and a good &lt;a href=&quot;http://www.girlgeniusonline.com/newreaders.php&quot;&gt;Comic&lt;/a&gt;.  Because once my stomach is appeased I’m going to &lt;a href=&quot;http://www.thefirehoseproject.com/&quot;&gt;DIVE&lt;/a&gt; BACK IN DAMN-IT!&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Epiphany</title>
+   <link href="http://ampblog.github.io/2015/09/02/epiphany/"/>
+   <updated>2015-09-02T00:00:00-05:00</updated>
+   <id>http://ampblog.github.io/2015/09/02/epiphany</id>
+   <content type="html">&lt;div class=&quot;message&quot;&gt;
+  &lt;strong&gt;#YouKnowYoureAWebDeveloperWhen&lt;/strong&gt; A quick static page accidentally becomes a multipage Bootstrapped site w/ header logo and content in ver 1.1
+&lt;/div&gt;
+
+&lt;h2 id=&quot;that-was-my-ah-ha-moment&quot;&gt;That was my “Ah Ha!” moment&lt;/h2&gt;
+
+&lt;p&gt;I had been revising what should have been a simple static page with a few lines of text on it for &lt;em&gt;HOURS&lt;/em&gt;, happily diving down the rabbit hole in order to resolve a few issues I had and adding “just one more thing…” “just one more thing…” until my single simple HTML page had become a sleek multi-page app with a header and a child page and a logo and content all nicely arranged just so in Bootstrap.&lt;/p&gt;
+
+&lt;p&gt;By the end of the day I was composing three different methods to describe a dog’s tail wagging in Ruby and I was thinking of boiling water in terms of a Ruby method.&lt;/p&gt;
+
+&lt;p&gt;Coding is my heroine.&lt;/p&gt;
+
+&lt;p&gt;I feel a lot like Remo Williams right about now:
+&lt;a href=&quot;http://www.imdb.com/title/tt0089901/&quot;&gt;“The Adventure Begins”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;~AMP&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# method 1 works&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Number of wags?&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;gets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chomp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_i&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;tailwags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;right&amp;quot;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;left&amp;quot;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;tailwags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;# method 2 works&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Number of wags?&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;gets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chomp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_i&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;tailwags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+			&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;right&amp;quot;&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+			&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;left&amp;quot;&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;tailwags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;# method 3 works&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Number of wags?&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;gets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chomp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_i&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;tailwags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;right&amp;quot;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;left&amp;quot;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tailwags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>
