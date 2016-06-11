@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ode to Coffee
+published: true
 ---
 
 ## National Coffee Day 2015
@@ -9,7 +10,7 @@ I love coffee.  There can be no doubt in the minds of any person who has ever me
 
 To illustrate, I have precisely ONE item in my Zombie-Apocalypse-preparedness kit... a hand-crank burr grinder.  I have not yet managed to start my own cottage coffee plantation in a greenhouse in my back yard to GROW my own beans to grind IN the grinder, I have not yet solved the problem of how then to ROAST the coffee I will one day grow for myself (I'm sure it can be done in a skillet over an open flame in a pinch) but by all that is holy if I am ever without power I WILL HAVE THE ABILIY TO GRIND MY BEANS.
 
-I acknowledge that this madness, but it is my madness.
+I acknowledge that this is madness, but it is MY madness.
 
 In the spirit of National Coffee Day I wanted to post the first Gist I ever posted on Github:
 
@@ -40,4 +41,3 @@ The tools available to those of us who wish to build Apps are elegant and powerf
 P.S. I just want to plug [RailsCasts #267 CoffeeScript Basics](http://railscasts.com/episodes/267-coffeescript-basics) while I'm at it.  Aimed at viewers with prior knowledge of JavaScript.
 
 <small> 1. Reoccurring theme(s) may be imminent... </small>
-
