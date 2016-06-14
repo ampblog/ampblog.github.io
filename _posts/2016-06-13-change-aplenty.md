@@ -11,7 +11,7 @@ I've been applying to jobs like crazy and doing challenges and answering applica
 
 To add to the insanity, at some point a few weeks ago my Web Dev environment (I use Vagrant VMs so I can keep multiple parallel environments - whilst encapsulating them from my base system) got completely HOSED.  That was the catalyst for a long-overdue<sup>2</sup> system upgrade.  I performed clean installs of VirtualBox and Vagrant while I learned the finer points of hosting parallel VMs in VirtualBox.
 
-There's been a WOLE LOTTA UPGRADING GOING ON, both on the computer front and on the skills-enrichment front.
+There's been a WHOLE LOTTA UPGRADING GOING ON, both on the computer front and on the skills-enrichment front...
 
 ### Ruby/Rails:
 * File I/O
