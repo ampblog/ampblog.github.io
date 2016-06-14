@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Change Aplenty
 ---
@@ -57,4 +57,3 @@ Oh yeah, that's right... _never_.
 
 <small>1. I'm not a Ninja, I don't even play one on TV. Or usually use that phrase for that matter.</small>
 <small>As a SysAdmin I was of the "If it ain't broke, don't fix it" mentality.  I was running OSX 10.7 until VERY recently.  App support kept crumbling out from under me.  Let me be very clear... 10.7 was A LOT MORE STABLE AND EFFICIENT than El Capitan in my limited experience, but I make performance improvements and hope for the best in the name of progress.</small>
-
