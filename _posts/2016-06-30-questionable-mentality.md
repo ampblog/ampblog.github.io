@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Questionable Mentality
 published: false
 ---
 
