@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Questionable Mentality
 ---
@@ -29,4 +29,3 @@ Asking questions is a valid skill and asking the RIGHT questions is a VALUABLE s
 I do both, and that should be considered an asset, not a liability.
 
 ~AMP
-
