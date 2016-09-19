@@ -21,7 +21,7 @@ After asking the great and powerful Google in every permutation I could think of
 "rake stats "M/C" column"
 ```
 
-I finally ended up asking `"where is the source file of rake tasks in rails?"` which led me through Stack Overflow into the rails/rails repo into a file called [statistics.rake](https://github.com/rails/rails/blob/master/railties/lib/rails/tasks/statistics.rake) which lists the directories rake will scan when running `rake stats`.
+I finally ended up asking <strong>"where is the source file of rake tasks in rails?"</strong> which led me through Stack Overflow into the rails/rails repo into a file called [statistics.rake](https://github.com/rails/rails/blob/master/railties/lib/rails/tasks/statistics.rake) which lists the directories rake will scan when running `rake stats`.
 
 That wasn't quite what I needed, but this require statement in the actual stats task at the end of the file `require "rails/code_statistics"` got me the rest of the way to the [code_statistics.rb](https://github.com/rails/rails/blob/master/railties/lib/rails/code_statistics.rb) file where I FOUND the answer I had been seeking in the method `print_line`.
 
