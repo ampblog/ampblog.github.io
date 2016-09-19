@@ -4,7 +4,7 @@ title: About AMP
 published: true
 ---
 
-![amped]({{site.baseurl}}/glowing-purple-neon-amp2.png)
+![amped](/images/glowing-purple-neon-amp2.png)
 
 Once upon a time when I worked in IT land "amarkpark" was a folder I made to temporarily "park" some files on a remote server... Eventually I had such folders on all my branch DCs and the folder had been shared and perhaps synchronized or set to roam. "amarkpark" contained essential tools of my trade: installers, batch files, drivers, patches, scripts, executables... It was my technical Bag-of-Holding&#8482;. 
 

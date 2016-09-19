@@ -7,26 +7,7 @@ I just spent the better part of an hour trying to figure out what the "M/C" stan
 
 For those of you at home who have never run `rake stats`, here's a sample output:
 
-```
-$ rake stats
-+----------------------+-------+-------+---------+---------+-----+-------+
-| Name                 | Lines |   LOC | Classes | Methods | M/C | LOC/M |
-+----------------------+-------+-------+---------+---------+-----+-------+
-| Controllers          |   207 |   156 |       6 |      29 |   4 |     3 |
-| Helpers              |    56 |    52 |       0 |       5 |   0 |     8 |
-| Models               |    54 |    39 |       4 |       2 |   0 |    17 |
-| Mailers              |    14 |    12 |       2 |       1 |   0 |    10 |
-| Javascripts          |    28 |     0 |       0 |       0 |   0 |     0 |
-| Libraries            |     0 |     0 |       0 |       0 |   0 |     0 |
-| Controller specs     |   313 |   265 |       0 |       0 |   0 |     0 |
-| Helper specs         |    45 |     9 |       0 |       0 |   0 |     0 |
-| Mailer specs         |    27 |    19 |       1 |       0 |   0 |     0 |
-| Model specs          |    18 |    13 |       0 |       0 |   0 |     0 |
-+----------------------+-------+-------+---------+---------+-----+-------+
-| Total                |   762 |   565 |      13 |      37 |   2 |    13 |
-+----------------------+-------+-------+---------+---------+-----+-------+
-  Code LOC: 259     Test LOC: 306     Code to Test Ratio: 1:1.2
-```
+![RakeStats](/images/rakestats.png)
 
 I wasn't able to find anyone's friendly blog post explaining it (or verifying for me what I considered the 'obvious' answer) so I guess it's up to ME to share what I found.
 
